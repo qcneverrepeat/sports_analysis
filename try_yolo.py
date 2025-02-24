@@ -364,7 +364,7 @@ if __name__ == "__main__":
     player_detection = playerDetection()
 
     # 1.载入视频 self.cap
-    player_detection.load_video(dir = "./data/video_01__momota_lindan__2_shot.mp4")
+    player_detection.load_video(dir = "./demo_data/video_01__momota_lindan__2_shot.mp4")
 
     # 2.载入模型 self.yolo_model
     player_detection.load_yolo_model(dir = "./model/yolo11n.pt", is_gpu = True)
